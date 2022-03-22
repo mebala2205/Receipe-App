@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(228, 228, 158);
+}
+.inner{
+    overflow: hidden;
+    width: 18rem; 
+    margin:5px
+}
+.inner img{
+    transition: all 1.8s ease;
+}
+.inner img:hover{
+    transform: scale(1.1);
+}
+.container{
+    margin-top:10px;  
+}
+.row{
+     padding: 10px; 
+     margin: 10px;
+}
+.card-title{
+    text-align:center;
+    overflow:hidden;
+    padding: 2px;
+    font-size: 17px;
+}
+.card{
+    border-radius: 10px;
+}
